@@ -44,4 +44,14 @@ header {
     flex-wrap: wrap;
   }
 }
+  @import './assets/fonts/7月16日\ 新筑紫A丸\ 修正版\ v10+Sleek原版.ttf';
+  #app {
+    font-family: 'aSans';
+    font-weight: 400;
+  }
+  @import './assets/fonts/クレPro-by\ 宁静之雨.ttf';
+  #app {
+    font-family: 'proSans';
+    font-weight: 400;
+  }
 </style>

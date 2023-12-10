@@ -1,0 +1,72 @@
+.sidebar{
+  width: 20%;
+  height: 70%;
+  background-color: #e7dce0;
+  position: fixed;
+  right: 3%;
+  top: 10%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75)
+}
+.content{
+  width: 61%;
+  height: 150rem;
+  background-color: #fff;
+  margin-left: 3%;
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+body{
+  background-color: #a0b8d8;
+  font-family: proSans;
+}
+h1,h2,p{
+cursor: pointer;
+}
+
+p:hover{
+transform: translate(1px,-4px);
+transform: scale(1.05);
+box-shadow: 8px 4px 16px 16px rgba(0, 0, 0, .1);
+padding: 10px;
+border-radius: 10px;
+}
+.sidebar a {
+text-decoration: none;
+color: #333;
+display: block;
+margin-bottom: 10px;
+transition: color 0.3s ease;
+}
+.sidebar a:hover {
+color: #408870;
+}
+/* 添加动画 */
+@keyframes scaleUp {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+h2,h1{
+  background: linear-gradient(to left, #746e70, #b9b0b3,#4d4b4c); /* 修改渐变色 */
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
